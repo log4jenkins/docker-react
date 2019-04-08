@@ -17,7 +17,8 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+             The app.js file is volume mounted to the docker continer
+            Docker run -p 3000:3000 -v /app/node_module -v$(pwd):/app reactapp
           </a>
         </header>
       </div>
