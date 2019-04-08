@@ -1,0 +1,57 @@
+Madhans-MBP:frontend madhan$ git init
+Reinitialized existing Git repository in /usr/local/lib/node_modules/create-react-app/frontend/.git/
+
+Madhans-MBP:frontend madhan$ git add .
+
+
+Madhans-MBP:frontend madhan$ git commit -m "initial commit"
+[master 11c19af] initial commit
+ Committer: Madhan Vasudevan <madhan@Madhans-MBP.hub>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 19 files changed, 49 insertions(+), 1 deletion(-)
+ mode change 100644 => 100755 .gitignore
+ create mode 100644 Dockerfile
+ create mode 100755 Dockerfile.dev
+ mode change 100644 => 100755 README.md
+ create mode 100644 docker-compose.yml
+ create mode 100644 docker_run_nginx
+ mode change 100644 => 100755 package-lock.json
+ mode change 100644 => 100755 package.json
+ mode change 100644 => 100755 public/favicon.ico
+ mode change 100644 => 100755 public/index.html
+ mode change 100644 => 100755 public/manifest.json
+ mode change 100644 => 100755 src/App.css
+ mode change 100644 => 100755 src/App.js
+ mode change 100644 => 100755 src/App.test.js
+ mode change 100644 => 100755 src/index.css
+ mode change 100644 => 100755 src/index.js
+ mode change 100644 => 100755 src/logo.svg
+ mode change 100644 => 100755 src/serviceWorker.js
+ create mode 100755 start_container
+Madhans-MBP:frontend madhan$ git remote add origin https://github.com/log4jenkins/docker-react.git
+
+Madhans-MBP:frontend madhan$ git push origin master
+
+Username for 'https://github.com': log4jenkins
+Password for 'https://log4jenkins@githubUsernam.com': 
+Enumerating objects: 29, done.
+Counting objects: 100% (29/29), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (28/28), done.
+Writing objects: 100% (29/29), 149.53 KiB | 6.23 MiB/s, done.
+Total 29 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/log4jenkins/docker-react.git
+ * [new branch]      master -> master
+Madhans-MBP:frontend madhan$ 
